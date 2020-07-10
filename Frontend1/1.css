@@ -1,0 +1,467 @@
+                            * {
+                                margin: 0;
+                                padding: 0;
+                            }
+                            
+                            @font-face {
+                                src: url(fonts/LBRITE.TTF);
+                                font-family: lucida_san;
+                            }
+                            
+                            @font-face {
+                                src: url(fonts/LBRITEI.TTF);
+                                font-family: lucidai_san;
+                            }
+                            
+                            html,
+                            body {
+                                width: 100%;
+                                height: 100%;
+                            }
+                            
+                            .top {
+                                width: 100%;
+                                font-family: lucida_san;
+                            }
+                            
+                            .top .logo {
+                                top: -30px;
+                                left: 0;
+                            }
+                            
+                            .top .navbar.menu {
+                                background-color: #fff600;
+                                margin-bottom: 0;
+                            }
+                            
+                            .top .menuphai {
+                                text-align: center;
+                            }
+                            
+                            .top .menuphai li.nav-item a.nav-link {
+                                color: rgb(39, 38, 38);
+                                font-size: 13px;
+                                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                padding-right: 20px;
+                                padding-left: 20px;
+                                transition: 0.5s;
+                                text-transform: uppercase;
+                            }
+                            
+                            .top .menuphai li.nav-item a:hover {
+                                color: rgb(231, 96, 18);
+                                transition: 0.5s;
+                            }
+                            
+                            .top .navbar li.active a.nav-link {
+                                font-family: lucida_san;
+                                color: rgb(231, 96, 18);
+                                text-decoration: underline;
+                            }
+                            /* banner */
+                            
+                            .slider {
+                                width: 100%;
+                                height: 500px;
+                                padding-top: 20px;
+                                padding-bottom: 20px;
+                                position: relative;
+                                background-color: #e6e6e6;
+                            }
+                            
+                            .carousel-control-prev {
+                                width: 50px;
+                            }
+                            
+                            .carousel-control-next {
+                                width: 50px;
+                            }
+                            
+                            .slider .nentrang {
+                                width: 100%;
+                                border-bottom: 5px solid gray;
+                                background-color: white;
+                            }
+                            
+                            .nentrang img {
+                                width: 100%;
+                                height: 369px;
+                            }
+                            
+                            .khoi {
+                                padding-left: 7px;
+                                padding-right: 7px;
+                            }
+                            
+                            .slider .carousel-control-prev img {
+                                width: 20px;
+                                height: 30px;
+                                position: absolute;
+                                top: 50%;
+                                left: 30px;
+                            }
+                            
+                            .slider .carousel-control-next img {
+                                width: 20px;
+                                height: 30px;
+                                position: absolute;
+                                top: 50%;
+                                right: 30px;
+                            }
+                            
+                            .slider .tieude {
+                                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                font-size: 15px;
+                                color: black;
+                                text-decoration: none;
+                                transition: 0.5s;
+                                padding-top: 17px;
+                                padding-left: 12px;
+                                display: block;
+                            }
+                            
+                            .slider .tieude:hover {
+                                color: #fff600;
+                                font-size: 18px;
+                                transition: 0.5s;
+                            }
+                            
+                            .slider .noidung {
+                                margin: 0;
+                                padding: 0;
+                                padding-bottom: 19px;
+                                padding-left: 12px;
+                                font-size: 12px;
+                                margin-top: -5px;
+                                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                            }
+                            /* dichvu */
+                            
+                            .dichvu {
+                                width: 100%;
+                                height: 337px;
+                                background-color: #6b6b6b;
+                                position: relative;
+                                padding-bottom: 66px;
+                            }
+                            
+                            .dichvu h3 {
+                                width: 350px;
+                                background-color: black;
+                                display: inline-block;
+                                padding: 10px 5px;
+                                border-radius: 10px;
+                                color: #fff600;
+                                text-transform: uppercase;
+                                position: absolute;
+                                top: -40px;
+                                margin-left: -175px;
+                            }
+                            
+                            .dichvu .kduoi {
+                                padding-top: 90px;
+                            }
+                            
+                            .dichvu h4 {
+                                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                color: #fff600;
+                                font-size: 15px;
+                                font-weight: 800;
+                            }
+                            
+                            .dichvu a {
+                                text-decoration: none;
+                            }
+                            
+                            .dichvu h4 .icon {
+                                width: 31px;
+                                height: 31px;
+                                border-radius: 50%;
+                                background-color: #fff600;
+                                padding: 7px 9px;
+                                color: black;
+                            }
+                            
+                            .dichvu p {
+                                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                color: rgb(216, 216, 216);
+                                font-size: 12px;
+                                line-height: 28px;
+                            }
+                            
+                            .thongtin {
+                                width: 100%;
+                                height: 553px;
+                                padding-top: 50px;
+                                background-color: #f1f1f1;
+                            }
+                            
+                            .thongtin p {
+                                padding: 0;
+                                margin: 0;
+                                padding-top: 20px;
+                                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                font-size: 12px;
+                                line-height: 24px;
+                            }
+                            
+                            .thongtin .tin3 {
+                                margin: 0;
+                                padding: 0;
+                                padding-bottom: 20px;
+                            }
+                            
+                            .thongtin span {
+                                font-style: italic;
+                            }
+                            
+                            .thongtin span.ngay {
+                                padding: 0;
+                                margin: 0;
+                                font-style: normal;
+                                color: #000;
+                                display: block;
+                                font-style: italic;
+                            }
+                            
+                            .thongtin .tindo {
+                                padding-bottom: 18px;
+                                font-weight: 700;
+                                color: #b72706;
+                                font-size: 12px;
+                                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                                border-bottom: 1px solid gray;
+                            }
+                            
+                            .thongtin .tindo:last-child {
+                                border: none;
+                            }
+                            /* thanh footer */
+                            
+                            .thanhfooter {
+                                border: 1px solid black;
+                                padding: 14px 10px;
+                                width: 100%;
+                                height: 61px;
+                                background-color: #1f1f1f;
+                            }
+                            
+                            .thanhfooter span {
+                                color: white;
+                                font-size: 15px;
+                                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                            }
+                            
+                            .thanhfooter .txt {
+                                display: inline-block;
+                                width: 253px;
+                                border-bottom-right-radius: 0;
+                                border-top-right-radius: 0;
+                            }
+                            
+                            .thanhfooter .nut {
+                                display: inline-block;
+                                width: 50px;
+                                background-color: #fff600;
+                                color: #000;
+                                font-weight: 900;
+                                border: #000;
+                                border-bottom-left-radius: 0;
+                                border-top-left-radius: 0;
+                            }
+                            
+                            .thanhfooter .anhchim {
+                                padding-bottom: 7px;
+                                width: 36px;
+                                height: 39px;
+                            }
+                            
+                            .thanhfooter span.chuthich {
+                                padding: 10px 0px;
+                                font-size: 12px;
+                                display: inline-block;
+                            }
+                            
+                            .thanhfooter a {
+                                color: #fff600;
+                            }
+                            
+                            .thanhfooter a:hover {
+                                text-decoration: underline;
+                            }
+                            /* footer */
+                            
+                            .footer {
+                                width: 100%;
+                                height: 295px;
+                                background-color: #3c3c3c;
+                                padding-top: 45px;
+                            }
+                            
+                            .footer h4 {
+                                margin: 0;
+                                padding: 0;
+                                color: white;
+                            }
+                            
+                            .footer ul {
+                                list-style: none;
+                            }
+                            
+                            .footer a {
+                                text-transform: uppercase;
+                                text-decoration: none;
+                                color: #6c6c6c;
+                                font-size: 15px;
+                                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                            }
+                            
+                            .footer a:hover li {
+                                color: #fff600;
+                                transition: 0.5s;
+                            }
+                            
+                            .footer p {
+                                color: #6c6c6c;
+                                font-size: 12px;
+                                line-height: 24px;
+                                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                            }
+                            
+                            .footer img {
+                                width: 30px;
+                                height: 30px;
+                            }
+                            
+                            @media(max-width:576px) {
+                                .menu {
+                                    background-color: #fff600;
+                                    z-index: 23;
+                                }
+                                .top .navbar li a.nav-link {
+                                    border-bottom: 1px dashed gray;
+                                }
+                                /* slider */
+                                .slider {
+                                    width: 100%;
+                                    height: 50px;
+                                    position: absolute;
+                                    top: 100px;
+                                    z-index: 20;
+                                    height: 460px;
+                                    overflow: hidden;
+                                }
+                                .slider .carousel-control-prev img {
+                                    width: 50px;
+                                    height: 50px;
+                                    margin-top: -25px;
+                                    position: absolute;
+                                    top: 50%;
+                                    left: 10px;
+                                    background-color: white;
+                                    border-radius: 50%;
+                                }
+                                .slider .carousel-control-next img {
+                                    width: 50px;
+                                    height: 50px;
+                                    position: absolute;
+                                    margin-top: -25px;
+                                    top: 50%;
+                                    right: 10px;
+                                    background-color: white;
+                                    border-radius: 50%;
+                                }
+                                /* dich vu */
+                                .dichvu {
+                                    height: 610px;
+                                    width: 100%;
+                                    position: absolute;
+                                    top: 600px;
+                                    z-index: 19;
+                                }
+                                .dichvu h3 {
+                                    position: absolute;
+                                    top: -46px;
+                                    left: 50%;
+                                    width: 160px;
+                                    height: 50px;
+                                    font-size: 12px;
+                                    margin-left: -80px;
+                                    padding: 18px 17px;
+                                }
+                                .dichvu h4 {
+                                    padding: 0;
+                                    margin: 0;
+                                    padding-top: 10px;
+                                }
+                                .dichvu p {
+                                    font-size: 14px;
+                                    padding: 0;
+                                    margin: 0;
+                                }
+                                .dichvu .kduoi {
+                                    padding-top: 20px;
+                                }
+                                /* thongtin */
+                                .thongtin {
+                                    width: 100%;
+                                    height: 1000px;
+                                    position: absolute;
+                                    top: 1200px;
+                                }
+                                .thongtin .ktin {
+                                    height: 300px;
+                                    overflow: scroll;
+                                    border-top: 3px solid black;
+                                }
+                                .thanhfooter {
+                                    width: 100%;
+                                    height: 300px;
+                                    position: absolute;
+                                    top: 2200px;
+                                }
+                                .thanhfooter span {
+                                    font-size: 15px;
+                                }
+                                .thanhfooter .txt {
+                                    width: 130px;
+                                    height: 25px;
+                                }
+                                .thanhfooter .nut {
+                                    margin-top: 4px;
+                                    width: 50px;
+                                    font-size: 10px;
+                                    height: 25px;
+                                }
+                                .thanhfooter .anhchim {
+                                    width: 60px;
+                                    height: 60px;
+                                }
+                                .thanhfooter span.chuthich {
+                                    font-size: 20px;
+                                }
+                                .thanhfooter a {
+                                    font-size: 30px;
+                                }
+                                /* footer */
+                                .footer {
+                                    width: 100%;
+                                    position: absolute;
+                                    top: 2500px;
+                                    height: 420px;
+                                    float: left;
+                                }
+                                .footer .Comp {
+                                    width: 187.5px;
+                                    float: left;
+                                }
+                                .footer .ic {
+                                    width: 35px;
+                                    float: left;
+                                    margin-right: 5px;
+                                    margin-top: 3px;
+                                }
+                                .footer p {
+                                    font-size: 13px;
+                                }
+                            }

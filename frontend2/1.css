@@ -1,0 +1,1242 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+@font-face {
+    src: url("fonts/Lato-Bold.ttf");
+    font-family: lato_b;
+}
+
+@font-face {
+    src: url("fonts/Lato-Regular.ttf");
+    font-family: lato_r;
+}
+
+@font-face {
+    src: url("fonts/Lato-Light.ttf");
+    font-family: lato_l;
+}
+
+@font-face {
+    src: url(fonts/Lato-Black.ttf);
+    font-family: lato_bl;
+}
+
+
+/*css cho menu */
+
+.menu {
+    width: 100%;
+    border-top: 5px solid #0886d3;
+    background-color: #21c2f8;
+}
+
+.icon {
+    padding: 0;
+    margin: 0;
+}
+
+.icon a {
+    font-size: 18px;
+    color: white;
+    padding: 0px 8px;
+    padding-top: 13px;
+    padding-right: 10px;
+    display: inline-block;
+}
+
+.nut {
+    font-family: lato_r;
+    margin-top: 5px;
+}
+
+.nutdk {
+    text-align: center;
+    padding: 8px 13px;
+    background-color: rgba(240, 248, 255, 0);
+    border: 1px solid white;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: -3px;
+    margin-bottom: 10px;
+}
+
+.nutdn {
+    text-align: center;
+    padding: 8px 13px;
+    background-color: white;
+    border: 1px solid white;
+    color: #a1b1bc;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: -3px;
+    margin-bottom: 10px;
+}
+
+
+/* het menu */
+
+
+/* css menu2    */
+
+.menu2 .editmenu {
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    float: left;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.menu2 li.nav-item a.nav-link {
+    font-family: lato_r;
+    font-size: 13px;
+    padding: 40px 20px 45px 20px;
+    border-top: 5px solid transparent;
+    text-transform: uppercase;
+    margin-top: -1px;
+    transition: 0.5s;
+}
+
+.menu2 li.nav-item.active a.nav-link {
+    border-top: 5px solid #1bbc9d;
+}
+
+.menu2 li.nav-item:hover a.nav-link {
+    border-top: 5px solid #1bbc9d;
+    transition: 0.5s;
+}
+
+.menu2 li.nav-item.icon1 a.nav-link {
+    font-size: 29px;
+    padding: 29px 11px;
+    color: #a1b1bc;
+}
+
+
+/* het menu2 */
+
+
+/* slider banner */
+
+.slider .carousel-indicators {
+    bottom: 10%;
+}
+
+#slidersp .carousel-indicators.sp li {
+    background-color: white;
+}
+
+#slidersp .carousel-indicators.sp li.active {
+    background-color: rgb(22, 21, 21);
+    border: none;
+}
+
+#slidersp {
+    height: 900px;
+    overflow: hidden;
+}
+
+.slider #slidersp img {
+    height: 900px;
+}
+
+#slidersp .carousel-inner .carousel-caption {
+    bottom: 30%;
+    text-align: left;
+}
+
+#slidersp h4 {
+    font-size: 26px;
+    font-family: lato_r;
+    color: #222533;
+    text-transform: uppercase;
+}
+
+#slidersp h3 {
+    font-size: 50px;
+    color: #1a1c27;
+    font-family: lato_b;
+    text-transform: capitalize;
+}
+
+#slidersp ul {
+    list-style: none;
+}
+
+#slidersp ul li i {
+    margin-right: 10px;
+    font-size: 24px;
+    transition: 0.5s;
+}
+
+#slidersp ul li:hover i {
+    color: #21c2f8;
+    transition: 0.5s;
+    font-size: 28px;
+}
+
+.nutslider .carousel-control-prev {
+    top: 50%;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+    border: 1px solid white;
+}
+
+.nutslider .carousel-control-next {
+    top: 50%;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+    border: 1px solid white;
+}
+
+
+/* het slider banner */
+
+
+/* khoi gioi thieu */
+
+.khoigioithieu {
+    padding-top: 100px;
+    margin: 0;
+}
+
+.khoigioithieu h1 {
+    padding: 0;
+    margin: 0;
+    font-size: 36px;
+    color: #2c3e50;
+    line-height: 50px;
+    font-weight: lato_l
+}
+
+.khoigioithieu p {
+    font-size: 14px;
+    color: #d0d8de;
+    font-family: lato_r;
+    line-height: 24px;
+}
+
+.khoigioithieu h5 {
+    font-weight: bold;
+    color: #2c3e50;
+    line-height: 24px;
+    font-size: 15px;
+}
+
+.khoigioithieu a.nut {
+    background-color: #a1b1bc;
+    border-bottom: 3px solid #81919b;
+    text-transform: uppercase;
+}
+
+.khoigioithieu .cotphai .panel-title a {
+    font-size: 15px;
+    font-family: lato_b;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.khoigioithieu .cotphai .card-body {
+    font-size: 14px;
+    font-family: lato_r;
+    line-height: 24px;
+    color: #d0d8de;
+}
+
+.khoigioithieu .cotphai .collapse {
+    padding: 20px 17px;
+    border: 1px solid #f4f5f6;
+}
+
+
+/* end khoi gioi thieu */
+
+
+/* khoi cong viec */
+
+.khoicongviec {
+    background-color: #f9fafb;
+    padding-bottom: 100px;
+}
+
+.khoicongviec .tren .tieudecv {
+    font-size: 36px;
+    color: #2c3e50;
+    font-family: lato_l;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    line-height: 24px;
+}
+
+.khoicongviec .duoi .khoicv {
+    position: relative;
+}
+
+.khoicongviec .duoi .khoicv .cv {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #e7eaee;
+}
+
+.khoicongviec .duoi .khoicv .cv .titlecv {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    font-family: lato_b;
+    line-height: 24px;
+    color: #2c3e50;
+    text-align: left;
+    transition: 0.1s;
+}
+
+.khoicongviec .duoi .khoicv:hover .cv h5 {
+    background-color: #a1b1bc;
+    color: white;
+    transition: 0.1s;
+}
+
+.khoicongviec .duoi .khoicv:hover .cv span {
+    background-color: #a1b1bc;
+    color: white;
+    transition: 0.1s;
+}
+
+.khoicongviec .duoi .khoicv .cv span {
+    font-size: 16px;
+    color: #2c3e50;
+    font-size: 16px;
+    transition: 0.1s;
+}
+
+.khoicongviec .duoi .khoicv .anh {
+    margin: 0;
+    padding: 0;
+    background-color: #222533;
+}
+
+.khoicongviec .duoi .khoicv a img {
+    transition: 0.3s;
+}
+
+.khoicongviec .duoi .khoicv:hover a img {
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.khoicongviec .duoi .khoicv a img.cong {
+    position: absolute;
+    top: 62px;
+    left: 44%;
+    width: 50px;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.khoicongviec .duoi .khoicv:hover a img.cong {
+    opacity: 1;
+    transition: 0.3s;
+}
+
+
+/* end khoi cong viec */
+
+
+/* khoi why */
+
+.khoiwhy {
+    padding-bottom: 100px;
+}
+
+.khoiwhy .tincv {
+    margin: 0;
+    padding-top: 100px;
+    font-size: 36px;
+    line-height: 50px;
+    font-family: lato_l;
+    color: #2c3e50;
+}
+
+.khoiwhy p {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: lato_r;
+    color: #a1b1bc;
+}
+
+.khoiwhy .nut {
+    line-height: 24px;
+    font-size: 16px;
+    background-color: #a1b1bc;
+    border-bottom: 3px solid #81919b;
+    text-transform: uppercase;
+    font-family: lato_b;
+}
+
+
+/* end khoi why */
+
+
+/* khoi slider2 */
+
+.khoislide2 #kslide2 .carousel-item {
+    height: 200px;
+    background-color: #1ad5b0;
+}
+
+.khoislide2 #kslide2 .carousel-item .carousel-caption {
+    height: 200px;
+    top: 0px;
+    left: 0;
+    right: 0;
+    color: white;
+    background-color: #1ad5b0;
+    transition: 0.5s;
+}
+
+.khoislide2 #kslide2 .carousel-item .carousel-caption h3 {
+    padding: 0;
+    margin: 0;
+    padding-top: 60px;
+    font-size: 30px;
+    line-height: 24px;
+    font-family: lato_bl;
+}
+
+.khoislide2 #kslide2 .carousel-item .carousel-caption p {
+    padding: 0;
+    padding-top: 8px;
+    margin: 0;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: lato_bl;
+    text-transform: uppercase;
+}
+
+.khoislide2 #kslide2 .carousel-item .carousel-caption:hover {
+    background-color: #2c3e50;
+    box-shadow: 5px 2px 10px solid#f1f1f1;
+    transition: 0.5s;
+}
+
+
+/* end khoi slider2 */
+
+
+/* css cho khoi Sayfox */
+
+.khoiSayFox .khtren .titleCF {
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 37px;
+    font-size: 36px;
+    font-family: lato_l;
+    line-height: 20px;
+    color: #2c3e50;
+}
+
+#kslide3 .carousel-item {
+    margin-top: 34px;
+    padding-top: 30px;
+}
+
+#kslide3 .carousel-item .khoi6cot {
+    width: 540px;
+    padding: 0px 0px;
+    background-color: #f9fafb;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    transition: 0.5s;
+}
+
+#kslide3 .carousel-item .khoi6cot:hover {
+    background-color: white;
+    transition: 0.5s;
+}
+
+#kslide3 .carousel-item .khoi6cot:nth-child(2n) {
+    margin-right: 0px;
+}
+
+#kslide3 .carousel-item .khoi6cot .khoitin {
+    padding-left: 15px;
+}
+
+#kslide3 .carousel-item .khoi6cot .hinhtron img {
+    width: 20px;
+    height: 20px;
+    margin-top: 35px;
+    margin-left: 16px;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#kslide3 .carousel-item .khoi6cot:hover .hinhtron img {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+/* anh nhan vien */
+
+#kslide3 .carousel-item .khoi6cot .hinhtron {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid #dddddd;
+    background-image: url("images/nv1.png");
+    background-position-x: 1px;
+    background-size: cover;
+}
+
+#kslide3 .carousel-item .khoi6cot .hinhtron.htron1 {
+    background-image: url("images/nv2.png");
+    background-position-y: -1px;
+    background-position-x: -5px;
+}
+
+#kslide3 .carousel-item .khoi6cot .hinhtron.htron2 {
+    background-image: url("images/nv3.png");
+    background-position-x: 1px;
+}
+
+#kslide3 .carousel-item .khoi6cot .hinhtron.htron3 {
+    background-image: url("images/nv1.png");
+}
+
+
+/* end anh nhan vien */
+
+#kslide3 .carousel-item .khoi6cot:hover .hinhtron {
+    background-color: #2c3e50;
+    background-image: none;
+}
+
+#kslide3 .carousel-item .khoi6cot .khoitin h4.ten {
+    font-size: 18px;
+    font-family: lato_b;
+    line-height: 24px;
+    color: #2c3e50;
+}
+
+#kslide3 .carousel-item .khoi6cot .khoitin h5.nghe {
+    font-size: 14px;
+    font-family: lato_r;
+    line-height: 24px;
+    color: #b7c3cc;
+}
+
+#kslide3 .carousel-item .khoi6cot .khoitin p.ndnghe {
+    font-size: 14px;
+    font-family: lato_r;
+    line-height: 24px;
+    color: #a1b1bc;
+}
+
+#kslide3 .carousel-control-next.btn {
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #2c3e50;
+    font-family: lato_b;
+    right: 40%;
+}
+
+#kslide3 .carousel-control-prev.btn {
+    width: 120px;
+    height: 40px;
+    background-color: #fbfafa;
+    border: 1px solid gray;
+    border-radius: 2px;
+    font-size: 14px;
+    color: #2c3e50;
+    font-family: lato_r;
+    left: 40%;
+}
+
+
+/* end css cho kho Sayfox */
+
+
+/*css khoi thuong hieu */
+
+.khoilogo .khoith {
+    width: 100%;
+    padding: 45px 0px;
+    border-top: 1px solid #e9e9e9;
+    margin: 0;
+}
+
+.khoilogo .khoith img.t_hieu {
+    width: 120px;
+    height: 48px;
+    opacity: 0.3;
+    transition: 0.5s;
+}
+
+.khoith img.t_hieu:hover {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+
+/* end css khoi thuong hiệu */
+
+
+/*====== css cho khoi design======= */
+
+
+/* css cot trai */
+
+.khoidesign .dstrai {
+    padding: 0;
+    margin: 0;
+    padding-top: 100px;
+}
+
+.khoidesign .dstrai .titleds {
+    padding-left: 0;
+}
+
+.khoidesign .dstrai .titleds h3 {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 36px;
+    font-size: 36px;
+    font-family: lato_l;
+    color: #2c3e50;
+    line-height: 48px;
+}
+
+.khoidesign .dstrai a {
+    color: #686d80;
+    transition: 0.5s;
+}
+
+.khoidesign .dstrai a:hover i {
+    transition: 0.5s;
+    color: #1abc9c;
+}
+
+.khoidesign .dstrai .iconds {
+    padding: 0;
+}
+
+.khoidesign .dstrai i {
+    font-size: 20px;
+    padding: 0;
+    padding-right: 24px;
+    padding-bottom: 10px;
+}
+
+.iconds i.fab.fa-tumblr {
+    padding-right: 0;
+}
+
+.khoidesign .dstrai .dschitiet {
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.khoidesign .dstrai .dschitiet p {
+    margin: 0;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: lato_r;
+    color: #a1b1bc;
+}
+
+
+/* end css cot trai */
+
+
+/* css cot ben phai */
+
+.khoidesign .dsphai {
+    padding-top: 100px;
+}
+
+.khoidesign .dsphai input {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+
+.khoidesign .dsphai input.txtds {
+    height: 50px;
+}
+
+.khoidesign .dsphai input.txtdsarea {
+    height: 100px;
+}
+
+.khoidesign .dsphai input.nutds {
+    height: 57px;
+    font-family: lato_bl;
+    font-size: 16px;
+    color: white;
+    background-color: #a1b1bc;
+    border-bottom: 3px solid #81919b;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+
+/* end css cot ben phai */
+
+
+/* end css khoi design */
+
+
+/* css khoi slide3-============ */
+
+.khoislide3 {
+    padding-top: 76px;
+}
+
+.khoislide3 #kslide3 {
+    margin: 0;
+}
+
+.khoislide3 #kslide3 .col-sm-4.col_4 {
+    padding: 0;
+}
+
+.khoislide3 #kslide3 .col-sm-4.col_4 img {
+    width: 100%;
+    height: 280px;
+    opacity: 0.4;
+    transition: 0.5s;
+}
+
+.khoislide3 #kslide3 .carousel-caption {
+    width: 100%;
+    padding: 0;
+    background-color: transparent;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.khoislide3 #kslide3 .carousel-caption h3.tde_slide3 {
+    font-size: 18px;
+    font-family: lato_b;
+    line-height: 24px;
+    color: white;
+    transition: 0.5s;
+    margin: 0;
+}
+
+.khoislide3 #kslide3 .carousel-caption p.ngay_slide3 {
+    font-size: 14px;
+    line-height: 24px;
+    font-family: lato_r;
+    color: white;
+    margin: 0;
+}
+
+
+/* hover */
+
+.khoislide3 #kslide3 .col-sm-4.col_4:hover img {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.khoislide3 #kslide3 .col-sm-4.col_4:hover .carousel-caption {
+    background-color: #252937;
+    transition: 0.5s;
+}
+
+.khoislide3 #kslide3 .col-sm-4.col_4:hover h3.tde_slide3 {
+    color: #17e2ba;
+    transition: 0.5s;
+}
+
+
+/* end hover */
+
+
+/*======= end khoi slide3============ */
+
+
+/* css khoiStrong ========*/
+
+.khoigetstrong {
+    background-image: url("images/xedap.jpg");
+    background-size: cover;
+    border-top: 1px solid white;
+}
+
+.khoigetstrong h2.td_strong {
+    margin: 0;
+    padding-top: 177px;
+    font-size: 36px;
+    line-height: 14px;
+    font-family: lato_l;
+    color: white;
+}
+
+.khoigetstrong p.ct_strong {
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    line-height: 14px;
+    font-family: lato_r;
+    color: white;
+}
+
+.khoigetstrong .nut_strong {
+    padding: 18px 19px;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 16px;
+    font-family: lato_bl;
+    line-height: 14px;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 175px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.khoigetstrong .nut_strong:hover {
+    background-color: white;
+    color: #21c2f8;
+    transition: 0.5s;
+}
+
+
+/* end css khoiStrong======= */
+
+
+/* css footer */
+
+.footer {
+    background-color: #1a1c27;
+}
+
+
+/* cot footer1 */
+
+.footer h1.td_footer1 {
+    padding-left: 0;
+    margin: 0;
+    padding-top: 100px;
+    font-size: 48px;
+    line-height: 14px;
+    font-family: lato_r;
+    color: white;
+    padding-bottom: 19px;
+}
+
+.footer .td_footer1 span {
+    font-family: lato_bl;
+}
+
+.footer p.ct_footer1 {
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 17px;
+    padding-top: 17px;
+    font-size: 14px;
+    font-family: lato_r;
+    line-height: 24px;
+    color: #a1b1bc;
+}
+
+
+/* end cot footer 1 */
+
+
+/*css cho cot footer2 */
+
+.footer h4.td_footer2 {
+    margin: 0;
+    margin-top: 100px;
+    padding-left: 20px;
+    margin-bottom: 13px;
+    font-family: lato_bl;
+    font-size: 18px;
+    line-height: 24px;
+    color: white;
+    text-transform: uppercase;
+    border-left: 5px solid#1abc9c;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer li {
+    border-bottom: 1px solid #262837;
+}
+
+.footer li a {
+    padding-top: 18px;
+    padding-bottom: 20px;
+    font-family: lato_r;
+    font-size: 14px;
+    line-height: 50px;
+    color: #a1b1bc;
+    text-decoration: none;
+}
+
+.footer li a span {
+    color: #788894;
+    font-size: 12px;
+}
+
+.footer li:first-of-type {
+    padding-top: 0px;
+}
+
+.footer li:last-of-type {
+    padding-bottom: 97px;
+    border-bottom: none;
+}
+
+
+/* end cot footer2 */
+
+
+/* css cot footer3 */
+
+.footer .ic_ft {
+    padding: 3px 6px;
+    width: 24px;
+    height: 24px;
+    background-color: #a1b1bc;
+    border-radius: 50%;
+}
+
+.footer .k_ft3 {
+    padding: 0;
+    padding-top: 18px;
+    border-bottom: 1px solid #262837;
+    padding-bottom: 11px
+}
+
+.footer .k_ft3:last-of-type {
+    border: none;
+}
+
+.footer h5.td_ft3 {
+    margin: 0;
+    padding-left: 0;
+    font-size: 14px;
+    line-height: 24px;
+    color: #a1b1bc;
+    font-family: lato_r;
+}
+
+.footer .time_ft {
+    margin: 0;
+    font-size: 12px;
+    font-family: lato_r;
+    line-height: 24px;
+    color: #6d7d89;
+}
+
+
+/* end css cot footer3 */
+
+
+/* css cot footer4 */
+
+.footer .anh_ft {
+    margin-bottom: 7px;
+    padding: 0;
+}
+
+.footer .k_ft4 {
+    padding: 0;
+}
+
+.footer .anh_ft img {
+    width: 85px;
+    height: 85px;
+}
+
+
+/* end css cot footer 4 */
+
+
+/* end css footer */
+
+
+/* css thanh footer */
+
+.thanhfooter {
+    background-color: #222533;
+    padding-top: 30px;
+    padding-bottom: 27px;
+}
+
+.thanhfooter .c_ft {
+    font-size: 14px;
+    font-family: lato_r;
+    line-height: 24px;
+    color: #a1b1bc;
+}
+
+.thanhfooter .c_iconft a {
+    padding-right: 17px;
+    font-size: 14px;
+    color: #a1b1bc;
+    transition: 0.5s;
+}
+
+.thanhfooter .c_iconft a i.fas.fa-wifi {
+    transform: rotate(45deg);
+}
+
+.thanhfooter .c_iconft a:hover {
+    color: white;
+    transition: 0.5s;
+}
+
+
+/* end css thanh footer */
+
+
+/* reponsive cho dt */
+
+@media(max-width:576px) {
+    .nut {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .icon {
+        text-align: center;
+    }
+    .menu2 li.nav-item a.nav-link {
+        padding: 10px 25px;
+        border-bottom: 1px dashed gray;
+    }
+    .menu2 li.nav-item.icon1 a.nav-link {
+        padding: 10px 30px;
+        border: 1px dashed 1px;
+    }
+    .collapse.navbar-collapse.show {
+        max-height: 450px;
+    }
+    /* css cho slider */
+    #slidersp {
+        height: 365px;
+        overflow: hidden;
+    }
+    #slidersp .carousel-inner .carousel-caption {
+        bottom: 30%;
+        text-align: left;
+    }
+    .slider .carousel-indicators.sp {
+        top: 40px;
+        left: 20px;
+    }
+    #slidersp .carousel-indicators.sp li {
+        width: 5px;
+        background-color: white;
+    }
+    #slidersp .carousel-indicators.sp li.active {
+        background-color: rgb(22, 21, 21);
+        border: none;
+    }
+    .slider #slidersp img {
+        height: 365px;
+        margin-top: 25px;
+    }
+    #slidersp h4 {
+        font-size: 13px;
+        font-family: lato_r;
+        color: #f1e8f0;
+        text-transform: uppercase;
+    }
+    #slidersp h3 {
+        font-size: 25px;
+        color: #dcdfec;
+        font-family: lato_b;
+        text-transform: capitalize;
+    }
+    #slidersp ul li i {
+        margin-right: 10px;
+        font-size: 12px;
+        transition: 0.5s;
+    }
+    #slidersp ul li:hover i {
+        color: #21c2f8;
+        transition: 0.5s;
+        font-size: 14px;
+    }
+    .nutslider .carousel-control-prev {
+        top: 50%;
+        left: 0;
+        width: 50px;
+        height: 50px;
+        margin-top: -25px;
+        border: 1px solid white;
+    }
+    .nutslider .carousel-control-next {
+        top: 50%;
+        right: 0;
+        width: 50px;
+        height: 50px;
+        margin-top: -25px;
+        border: 1px solid white;
+    }
+    /*     khoigioithieu */
+    .khoigioithieu {
+        padding-top: 20px;
+        margin: 0;
+    }
+    .khoigioithieu .cotphai {
+        padding: 0;
+    }
+    /* end khoigioithieu */
+    /* khoi cong viec */
+    .khoicongviec .tren .tieudecv {
+        font-size: 40px;
+        margin-left: 40px;
+        line-height: 40px;
+    }
+    .khoicongviec .duoi .khoicv .cv span {
+        float: right;
+    }
+    /* end khoi cong viec */
+    /* khoi why */
+    .kwhy .col-sm-6.cotp {
+        padding: 0;
+        margin: 0;
+    }
+    .kwhy .col-sm-6.cott {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    .khoiwhy .tincv {
+        padding-top: 50px;
+    }
+    /* end khoi why */
+    /* khoi slide2 */
+    .khoislide2 #kslide2 .carousel-item .carousel-caption .h3 {
+        font-size: 40px;
+    }
+    .khoislide2 #kslide2 .carousel-item .carousel-caption .p {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+    /* end khoi slide2 */
+    /* css cho khoiFox */
+    .khoiSayFox .khtren .titleCF {
+        font-size: 24px;
+        text-align: center;
+    }
+    #kslide3 .carousel-control-next.btn {
+        right: 15%;
+    }
+    #kslide3 .carousel-control-prev.btn {
+        left: 15%;
+    }
+    #kslide3 .carousel-item .khoi6cot .hinhtron {
+        width: 50px;
+        height: 50px;
+    }
+    #kslide3 .carousel-item .khoi6cot .khoitin {
+        width: 350px;
+        margin: 0;
+    }
+    #kslide3 .carousel-item .khoi6cot .khoitin h4.ten {
+        font-size: 20px;
+        margin: 0;
+    }
+    /* end css cho khoiFox */
+    /* khoi thuong hieu */
+    .khoilogo .khoith img.t_hieu {
+        width: 100%;
+        height: 100px;
+        border: 1px solid gray;
+        padding: 10px 10px;
+    }
+    /* end khoi thuong hieu */
+    /* css cho khoi design */
+    .khoidesign .dstrai {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .khoidesign .dstrai i {
+        padding-right: 10px;
+    }
+    .khoidesign .dsphai {
+        padding-top: 20px;
+    }
+    /* end css cho khoi design */
+    /* css khoi slide3-============ */
+    .khoislide3 {
+        padding-top: 26px;
+    }
+    .khoislide3 #kslide3 .carousel-item.active {
+        margin: 0;
+    }
+    /* end css slide3 */
+    /* css khoi strong */
+    .khoigetstrong h2.td_strong {
+        font-size: 20px;
+        line-height: 14px;
+        font-family: lato_l;
+        color: white;
+    }
+    .khoigetstrong p.ct_strong {
+        font-size: 14px;
+        line-height: 14px;
+        font-family: lato_r;
+        color: white;
+    }
+    .khoigetstrong .nut_strong {
+        margin-left: 70px;
+    }
+    /* end css cho khoi strong */
+    /* css khoi footer */
+    .footer h4.td_footer2 {
+        margin-top: 20px;
+    }
+    .footer li:last-of-type {
+        padding-bottom: 0px;
+    }
+    .footer .anh_ft img {
+        width: 100%;
+        height: 100px;
+    }
+    /* end css khoi footer */
+    /* css thanh footer */
+    .thanhfooter .c_ft {
+        text-align: center;
+    }
+    .thanhfooter .c_iconft {
+        text-align: center;
+    }
+    /* end css thanh footer */
+}

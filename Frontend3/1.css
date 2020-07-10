@@ -1,0 +1,403 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    src: url("fonts/MontserratAlternates-Black.otf");
+    font-family: monter_bl;
+}
+
+@font-face {
+    src: url("fonts/MontserratAlternates-Bold.otf");
+    font-family: monter_b;
+}
+
+@font-face {
+    src: url("fonts/MontserratAlternates-Regular.otf");
+    font-family: monter_r;
+}
+
+@font-face {
+    src: url("fonts/MontserratAlternates-Light.otf");
+    font-family: monter_l;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* css cho header */
+
+.header {
+    background-color: #353c3e;
+}
+
+.header img.img_logo {
+    height: 97px;
+    border-bottom: 3px solid #d04e33;
+    margin-right: 18px;
+    position: relative;
+    margin-top: -5px;
+    top: 5px;
+}
+
+.header a.txt_logo {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    font-family: monter_b;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+
+.header .txt_header {
+    padding-top: 38px;
+    padding-bottom: 28px;
+    font-size: 13px;
+    line-height: 22px;
+    font-family: monter_r;
+    color: #959595;
+    font-style: italic;
+}
+
+
+/* end css cho header */
+
+
+/* css cho menutop */
+
+.menutop .menu {
+    background-color: #40494c;
+}
+
+.menutop .menu {
+    border-radius: 0;
+}
+
+.menutop .menu {
+    margin: 0;
+    padding: 0;
+    border: 0px;
+    border-bottom: 3px solid black;
+}
+
+.menutop .menu .collapse.navbar-collapse {
+    margin: 0;
+    padding: 0;
+}
+
+.menutop .menu li.nav-item:first-of-type a.nav-link {
+    padding-left: 0;
+}
+
+.menutop .menu li.nav-item a.nav-link {
+    padding: 25px 25px 24px 10px;
+    border-radius: 0;
+    color: #717b7e;
+    text-transform: uppercase;
+    font-size: 13px;
+    line-height: 25px;
+    text-decoration: none;
+}
+
+.menutop .menu li.nav-item.active a.nav-link {
+    color: white;
+}
+
+
+/* end css cho menutop */
+
+
+/* css banner */
+
+.banner {
+    background-color: #f6f6f6;
+    position: relative;
+}
+
+.banner .anh_banner {
+    width: 100%;
+    border: 15px solid white;
+    height: 623px;
+    box-shadow: 0px 0px 6px;
+}
+
+.banner .kt_banner {
+    width: 552px;
+    height: 552px;
+    border: 20px solid #f6f6f6;
+    border-radius: 60%;
+    background-color: white;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    margin-left: -276px;
+}
+
+.banner .kt_banner h1.td_banner {
+    margin: 0;
+    font-size: 51px;
+    padding: 0px 70px;
+    padding-top: 140px;
+    font-family: monter_b;
+    line-height: 43px;
+    color: #464646;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.banner .kt_banner p.nd_banner {
+    margin: 0;
+    padding: 0 58px;
+    padding-top: 38px;
+    font-size: 13px;
+    font-family: monter_r;
+    line-height: 22px;
+    color: #959595;
+}
+
+
+/* css cho khoitin =======*/
+
+.banner .khoitin h2.td_kt {
+    padding-top: 40px;
+    font-size: 24px;
+    line-height: 45px;
+    color: #777777;
+    font-family: monter_r;
+    margin: 0;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-bottom: 30px;
+}
+
+.banner .khoitin p.nd_kt {
+    font-size: 12px;
+    line-height: 25px;
+    font-family: monter_r;
+    color: #cccccc;
+    margin: 0;
+    padding-left: 125px;
+    padding-right: 125px;
+}
+
+
+/* end khoitin======== */
+
+
+/* css khoisanpham====== */
+
+.banner .khoisanpham {
+    padding-top: 70px;
+}
+
+.banner .khoisanpham .khoi_1 .td_sp {
+    margin: 0;
+    font-size: 16px;
+    font-family: monter_r;
+    line-height: 25px;
+    color: #353c3e;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.banner .khoisanpham .khoi_1 .nd_sp {
+    font-size: 12px;
+    line-height: 21px;
+    color: #8f8f8f;
+    font-family: monter_r;
+    margin: 0;
+}
+
+.banner .khoisanpham .row {
+    display: block;
+    padding-bottom: 68px;
+}
+
+.banner .khoisanpham .khoi_2 {
+    background-color: white;
+    padding: 0;
+    width: 260px;
+    height: 486px;
+    border-bottom: 3px solid gray;
+    margin-right: 11px;
+    overflow: hidden;
+}
+
+.banner .khoisanpham .khoi_2:last-of-type {
+    margin-right: 0;
+}
+
+.banner .khoisanpham .khoi_2 .img_ksp2 {
+    width: 100%;
+    border-bottom: 3px solid #d04e33;
+}
+
+.banner .khoisanpham .khoi_2 .td_sp1 {
+    font-size: 16px;
+    font-family: monter_r;
+    line-height: 25px;
+    color: #d04e33;
+    padding-top: 31px;
+    padding-left: 41px;
+    padding-right: 58px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.banner .khoisanpham .khoi_2 .nd_sp1 {
+    font-family: monter_r;
+    font-size: 12px;
+    line-height: 21px;
+    color: #8f8f8f;
+    padding-right: 46px;
+    padding-left: 41px;
+    padding-top: 21px;
+    margin: 0;
+}
+
+.banner .khoisanpham .khoi_2 h4.ngay_ksp1 {
+    margin: 0;
+    font-family: monter_r;
+    font-size: 12px;
+    line-height: 21px;
+    color: #555555;
+    padding-left: 41px;
+    padding-top: 18px;
+    margin-bottom: -4px;
+}
+
+
+/* end css khoisanpham */
+
+
+/* css cho khoi gioithieu */
+
+.banner .khoigioithieu .col-sm-6 {
+    padding: 0;
+}
+
+.banner .khoigioithieu .col-sm-6.gt_phaito,
+.col-sm-6.gt_traito {
+    background-color: white;
+    border-bottom: 3px solid gray;
+}
+
+.banner .khoigioithieu .gt_trai {
+    padding-left: 40px;
+}
+
+.banner .khoigioithieu .td_gt {
+    color: #d04e33;
+    font-size: 16px;
+    font-family: monter_r;
+    line-height: 25px;
+    padding-top: 43px;
+    margin: 0;
+}
+
+.banner .khoigioithieu .nd_gt {
+    color: #8f8f8f;
+    font-size: 12px;
+    font-family: monter_r;
+    line-height: 21px;
+    margin: 0;
+}
+
+.banner .khoigioithieu .col-sm-6.gt_phai img {
+    width: 100%;
+    border-bottom: 3px solid black;
+}
+
+.banner .khoigioithieu .gt_phaito .col-sm-6.gt_phai img {
+    width: 100%;
+    border-bottom: 3px solid #e05d41;
+}
+
+
+/* end css cho khoi gioi thieu */
+
+
+/* end css banner */
+
+
+/* reposive cho dien thoai Iphone 6 */
+
+@media(max-width:576px) {
+    .header .col-sm-4 {
+        padding: 0;
+    }
+    .header img.img_logo {
+        width: 100px;
+        height: 100px;
+        border: 3px solid #d04e33;
+    }
+    .header a.txt_logo {
+        font-size: 35px;
+    }
+    .header .txt_header {
+        font-size: 16px;
+        text-align: center;
+    }
+    .menutop .menu button.navbar-toggler.hidden-lg-up {
+        color: white;
+        font-size: 25px;
+    }
+    .menutop .menu .collapse.navbar-collapse {
+        padding-left: 20px;
+    }
+    .menutop .menu li.nav-item:first-of-type a.nav-link {
+        padding-left: 10px;
+    }
+    .menutop .menu li.nav-item a.nav-link {
+        padding: 10px 10px;
+        border-bottom: 1px solid white;
+    }
+    .menutop .menu li.nav-item:last-of-type a.nav-link {
+        border: none;
+        padding-bottom: 0;
+    }
+    .banner .col-sm-12 {
+        padding: 0;
+    }
+    .banner anh_banner {
+        width: 100%;
+    }
+    .banner .kt_banner {
+        width: 100%;
+    }
+    .banner .kt_banner h1.td_banner {
+        font-size: 25px;
+    }
+    .banner .kt_banner p.nd_banner {
+        font-size: 12px;
+        padding: 10px 20px;
+    }
+    .banner .khoitin h2.td_kt {
+        padding: 0;
+        padding-top: 20px;
+    }
+    .banner .khoitin p.nd_kt {
+        padding: 0;
+        font-size: 13px;
+    }
+    /* css khoi san pham */
+    .banner .khoisanpham .khoi_1 .td_sp {
+        text-align: center;
+        font-size: 20px;
+    }
+    .banner .khoisanpham .khoi_2 {
+        width: 100%;
+        overflow: scroll;
+    }
+    .banner .khoigioithieu .td_gt {
+        padding-top: 20px;
+    }
+    .banner .khoigioithieu .nd_gt {
+        padding-bottom: 20px;
+    }
+}
